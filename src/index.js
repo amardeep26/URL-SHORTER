@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import { initializeApp } from 'firebase/app';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAme6c_djUOXUyVwvlqq_zOOvyBk6I5M1s",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "url-shotner-fa6c6.firebaseapp.com",
   projectId: "url-shotner-fa6c6",
   storageBucket: "url-shotner-fa6c6.firebasestorage.app",
